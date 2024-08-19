@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="User"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-04-18 05:19:00 PM"/>
+        <attribute name="created" value="VXNlcjtXSU4tNFJKTDZTSVY5MFY7MjAyMy0wNC0xODswOTo0NjoxNiBBTTsyNzQ0"/>
+        <attribute name="edited" value="VXNlcjtXSU4tNFJKTDZTSVY5MFY7MjAyMy0wNC0xODswNToxOTowMCBQTTs0OzI4NTk="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n, count, a, max" type="Integer" array="False" size=""/>
+            <input variable="n"/>
+            <input variable="a"/>
+            <assign variable="max" expression="a"/>
+            <assign variable="count" expression="1"/>
+            <while expression="count &lt; n">
+                <input variable="a"/>
+                <assign variable="count" expression="count + 1"/>
+                <if expression="a &gt; max">
+                    <then>
+                        <assign variable="max" expression="a"/>
+                    </then>
+                    <else/>
+                </if>
+            </while>
+            <output expression="&quot;max son =&quot;&amp;max" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

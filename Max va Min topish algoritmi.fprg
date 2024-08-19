@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Asus"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-04-15 11:36:09 PM"/>
+        <attribute name="created" value="QXN1cztERVNLVE9QLTEwVEwwUk87MjAyMy0wNC0xNDswMjoyNjowNiBQTTsyNzM3"/>
+        <attribute name="edited" value="QXN1cztERVNLVE9QLTEwVEwwUk87MjAyMy0wNC0xNDswMjozMzo1OCBQTTsxOzI4NTA="/>
+        <attribute name="edited" value="VXNlcjtXSU4tNFJKTDZTSVY5MFY7MjAyMy0wNC0xNTsxMTozNjowOSBQTTsxOzI4NTg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b" type="Integer" array="False" size=""/>
+            <input variable="a"/>
+            <input variable="b"/>
+            <if expression="a &gt; b">
+                <then>
+                    <output expression="&quot;Max=&quot;&amp;a&amp;&quot;Min=&quot;&amp;b" newline="True"/>
+                </then>
+                <else>
+                    <if expression="b &gt; a">
+                        <then>
+                            <output expression="&quot;Max=&quot;&amp;b&amp;&quot;MIn=&quot;&amp;a" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;Sonlar teng&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

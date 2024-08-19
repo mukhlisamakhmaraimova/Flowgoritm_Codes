@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="User"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-04-15 11:16:06 PM"/>
+        <attribute name="created" value="VXNlcjtXSU4tNFJKTDZTSVY5MFY7MjAyMy0wNC0xNTsxMTo1NDoyMCBBTTsyNzI4"/>
+        <attribute name="edited" value="VXNlcjtXSU4tNFJKTDZTSVY5MFY7MjAyMy0wNC0xNTsxMToxNjowNiBQTTs3OzI4NTk="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b" type="Integer" array="False" size=""/>
+            <declare name="res" type="Real" array="False" size=""/>
+            <declare name="amal" type="String" array="False" size=""/>
+            <input variable="a"/>
+            <input variable="b"/>
+            <input variable="amal"/>
+            <if expression="amal == &quot;-&quot;">
+                <then>
+                    <output expression="a-b" newline="True"/>
+                </then>
+                <else>
+                    <if expression="amal == &quot;+&quot;">
+                        <then>
+                            <output expression="a+b" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="amal == &quot;*&quot;">
+                                <then>
+                                    <output expression="a*b" newline="True"/>
+                                </then>
+                                <else>
+                                    <if expression="b == 0">
+                                        <then>
+                                            <output expression="&quot;0 ga bo;lish mumkin emas!&quot;" newline="True"/>
+                                        </then>
+                                        <else>
+                                            <if expression="amal == &quot;/&quot;">
+                                                <then>
+                                                    <assign variable="res" expression="a/b"/>
+                                                    <output expression="res" newline="True"/>
+                                                </then>
+                                                <else>
+                                                    <output expression="a % b" newline="True"/>
+                                                </else>
+                                            </if>
+                                        </else>
+                                    </if>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="User"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-04-12 02:22:47 PM"/>
+        <attribute name="created" value="VXNlcjtXSU4tNFJKTDZTSVY5MFY7MjAyMy0wNC0xMjswMTo0NjozMyBQTTsyNzQ0"/>
+        <attribute name="edited" value="VXNlcjtXSU4tNFJKTDZTSVY5MFY7MjAyMy0wNC0xMjswMjoyMjo0NyBQTTsxOzI4NTI="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n" type="Integer" array="False" size=""/>
+            <input variable="n"/>
+            <if expression="n % 4 == 0 and n % 100 != 0 or n % 400 == 0">
+                <then>
+                    <output expression="&quot;Kabisa yili&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Kabisa yili emas&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

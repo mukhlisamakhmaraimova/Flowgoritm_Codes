@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="User"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-04-12 02:35:56 AM"/>
+        <attribute name="created" value="VXNlcjtXSU4tNFJKTDZTSVY5MFY7MjAyMy0wNC0xMTsxMTo0MDoxOCBQTTsyNzQx"/>
+        <attribute name="edited" value="VXNlcjtXSU4tNFJKTDZTSVY5MFY7MjAyMy0wNC0xMjswMjozNTo1NiBBTTszOzI4NDM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="son" type="Integer" array="False" size=""/>
+            <input variable="son"/>
+            <if expression="son &gt; 0">
+                <then>
+                    <output expression="son -1" newline="True"/>
+                </then>
+                <else>
+                    <if expression="son &lt; 0">
+                        <then>
+                            <output expression="son -1" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="son = 0">
+                                <then>
+                                    <output expression="0" newline="True"/>
+                                </then>
+                                <else/>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

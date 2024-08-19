@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="User"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-04-08 11:14:51 PM"/>
+        <attribute name="created" value="VXNlcjtXSU4tNFJKTDZTSVY5MFY7MjAyMy0wNC0wODsxMDo1MjowMiBQTTsyNzQy"/>
+        <attribute name="edited" value="VXNlcjtXSU4tNFJKTDZTSVY5MFY7MjAyMy0wNC0wODsxMToxNDo1MSBQTTsyOzI4NTQ="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;Magazinga borish&quot;" newline="True"/>
+            <output expression="&quot;Kerakli mahsulotni sotib olish&quot;" newline="True"/>
+            <output expression="&quot;Uyga qaytish&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

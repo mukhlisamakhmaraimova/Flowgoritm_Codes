@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Asus"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-04-15 11:51:28 PM"/>
+        <attribute name="created" value="QXN1cztERVNLVE9QLTEwVEwwUk87MjAyMy0wNC0xNDswMjoyNjowNiBQTTsyNzM3"/>
+        <attribute name="edited" value="QXN1cztERVNLVE9QLTEwVEwwUk87MjAyMy0wNC0xNDswMjozMzo1OCBQTTsxOzI4NTA="/>
+        <attribute name="edited" value="VXNlcjtXSU4tNFJKTDZTSVY5MFY7MjAyMy0wNC0xNTsxMTo1MToyOCBQTTsyOzI4NTc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c" type="Integer" array="False" size=""/>
+            <input variable="a"/>
+            <input variable="b"/>
+            <input variable="c"/>
+            <if expression="a &gt; b and b &gt; c or a &lt; b and b &lt; c">
+                <then>
+                    <assign variable="a" expression="a * 2"/>
+                    <assign variable="b" expression="b * 2"/>
+                    <assign variable="c" expression="c * 2"/>
+                </then>
+                <else>
+                    <assign variable="a" expression="-a"/>
+                    <assign variable="b" expression="b * -1"/>
+                    <assign variable="c" expression="0 - c"/>
+                </else>
+            </if>
+            <output expression="a&amp;&quot; &quot;&amp;b&amp;&quot; &quot;&amp;c" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

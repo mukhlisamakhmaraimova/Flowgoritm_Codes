@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="User"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-04-15 02:40:42 PM"/>
+        <attribute name="created" value="VXNlcjtXSU4tNFJKTDZTSVY5MFY7MjAyMy0wNC0xNTsxMTo1NDoyMCBBTTsyNzI4"/>
+        <attribute name="edited" value="VXNlcjtXSU4tNFJKTDZTSVY5MFY7MjAyMy0wNC0xNTswMjo0MDo0MiBQTTs0OzI4NTM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="x1, x2, y1, y2" type="Integer" array="False" size=""/>
+            <input variable="x1"/>
+            <input variable="y1"/>
+            <input variable="x2"/>
+            <input variable="y2"/>
+            <if expression="abs(x1-x2) == abs(y1-y2)">
+                <then>
+                    <output expression="&quot;YES&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;NO&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

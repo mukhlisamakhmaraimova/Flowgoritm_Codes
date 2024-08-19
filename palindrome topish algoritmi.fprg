@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="User"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-04-15 02:09:13 PM"/>
+        <attribute name="created" value="VXNlcjtXSU4tNFJKTDZTSVY5MFY7MjAyMy0wNC0xNTsxMTo1NDoyMCBBTTsyNzI4"/>
+        <attribute name="edited" value="VXNlcjtXSU4tNFJKTDZTSVY5MFY7MjAyMy0wNC0xNTswMjowOToxMyBQTTszOzI4NTU="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="r1, r2, r3, r4, n" type="Integer" array="False" size=""/>
+            <input variable="n"/>
+            <assign variable="r1" expression="n / 1000"/>
+            <assign variable="r2" expression="n % 1000 / 100"/>
+            <assign variable="r3" expression="n % 100 / 10"/>
+            <assign variable="r4" expression="n % 10"/>
+            <if expression="r1 == r4 and r2 == r3">
+                <then>
+                    <output expression="&quot;YES&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;NO&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

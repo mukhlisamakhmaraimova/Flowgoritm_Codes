@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="User"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-04-18 05:09:20 PM"/>
+        <attribute name="created" value="VXNlcjtXSU4tNFJKTDZTSVY5MFY7MjAyMy0wNC0xODswOTo0NjoxNiBBTTsyNzQ0"/>
+        <attribute name="edited" value="VXNlcjtXSU4tNFJKTDZTSVY5MFY7MjAyMy0wNC0xODswNTowOToyMCBQTTszOzI4NTk="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n" type="Integer" array="False" size=""/>
+            <output expression="&quot;Musbat son kiriting:&quot;" newline="True"/>
+            <input variable="n"/>
+            <while expression="n &lt; 1">
+                <output expression="&quot;Qayta kiriting!&quot;" newline="True"/>
+                <input variable="n"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>

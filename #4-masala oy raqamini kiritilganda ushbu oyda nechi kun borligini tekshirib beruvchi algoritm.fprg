@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Asus"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-04-16 12:18:44 AM"/>
+        <attribute name="created" value="QXN1cztERVNLVE9QLTEwVEwwUk87MjAyMy0wNC0xNDswMjoyNjowNiBQTTsyNzM3"/>
+        <attribute name="edited" value="QXN1cztERVNLVE9QLTEwVEwwUk87MjAyMy0wNC0xNDswMjozMzo1OCBQTTsxOzI4NTA="/>
+        <attribute name="edited" value="VXNlcjtXSU4tNFJKTDZTSVY5MFY7MjAyMy0wNC0xNjsxMjoxODo0NCBBTTszOzI4NDY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n" type="Integer" array="False" size=""/>
+            <input variable="n"/>
+            <if expression="n&gt;0 and n&lt;13">
+                <then>
+                    <if expression="n == 2">
+                        <then>
+                            <output expression="28" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="n==4 or n==6 or n==9 or n==11">
+                                <then>
+                                    <output expression="30" newline="True"/>
+                                </then>
+                                <else>
+                                    <output expression="31" newline="True"/>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </then>
+                <else>
+                    <output expression="&quot;Bunday oy mavjud emas&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

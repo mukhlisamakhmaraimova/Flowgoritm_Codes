@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="User"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-04-18 10:55:07 PM"/>
+        <attribute name="created" value="VXNlcjtXSU4tNFJKTDZTSVY5MFY7MjAyMy0wNC0xODswOTo0NjoxNiBBTTsyNzQ0"/>
+        <attribute name="edited" value="VXNlcjtXSU4tNFJKTDZTSVY5MFY7MjAyMy0wNC0xODsxMDo1NTowNyBQTTs5OzI4Njc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="son, boluvchi" type="Integer" array="False" size=""/>
+            <input variable="son"/>
+            <assign variable="boluvchi" expression="2"/>
+            <while expression="son % boluvchi &gt; 0">
+                <assign variable="boluvchi" expression="boluvchi + 1"/>
+            </while>
+            <output expression="boluvchi" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

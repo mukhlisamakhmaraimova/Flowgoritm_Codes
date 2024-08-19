@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="User"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-04-15 01:05:57 PM"/>
+        <attribute name="created" value="VXNlcjtXSU4tNFJKTDZTSVY5MFY7MjAyMy0wNC0xNTsxMTo1NDoyMCBBTTsyNzI4"/>
+        <attribute name="edited" value="VXNlcjtXSU4tNFJKTDZTSVY5MFY7MjAyMy0wNC0xNTswMTowNTo1NyBQTTsxOzI4NTY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c, d, e, max" type="Integer" array="False" size=""/>
+            <input variable="a"/>
+            <input variable="b"/>
+            <input variable="c"/>
+            <input variable="d"/>
+            <input variable="e"/>
+            <assign variable="max" expression="a"/>
+            <if expression="b &gt; max">
+                <then>
+                    <assign variable="max" expression="b"/>
+                </then>
+                <else/>
+            </if>
+            <if expression="c &gt; max">
+                <then>
+                    <assign variable="max" expression="c"/>
+                </then>
+                <else/>
+            </if>
+            <if expression="d &gt; max">
+                <then>
+                    <assign variable="max" expression="d"/>
+                </then>
+                <else/>
+            </if>
+            <if expression="e &gt; max">
+                <then>
+                    <assign variable="max" expression="e"/>
+                </then>
+                <else/>
+            </if>
+            <output expression="max" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
